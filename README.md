@@ -8,7 +8,7 @@
 var bag = {
     documents: ['Паспорт','Водительские права','Диплом ВУЗа'],
     accessories: ['Ключи','Билеты в кино','Лекарство'],
-    something:["Помада","Бутер"],
+    something:[`Помада`,`Бутер`],
     getSomething: function (x) {
          for(keyInBag in this){
              var property = bag[keyInBag];
